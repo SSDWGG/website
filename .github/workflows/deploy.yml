@@ -24,6 +24,9 @@ jobs:
             -e "ssh -o StrictHostKeyChecking=accept-new" \
             dist/ \
             ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/www/wwwroot/ryw_yun_project/wgg_website/
+          sshpass -p "${{ secrets.SSH_PASSWORD }}" ssh -o StrictHostKeyChecking=accept-new \
+            ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} \
+            "chown -R www:www /www/wwwroot/ryw_yun_project/wgg_website"
 
   deploy-ghpages:
     runs-on: ubuntu-latest
