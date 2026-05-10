@@ -23,10 +23,10 @@ jobs:
           sshpass -p "${{ secrets.SSH_PASSWORD }}" rsync -az --delete \
             -e "ssh -o StrictHostKeyChecking=accept-new" \
             dist/ \
-            ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/www/wwwroot/ryw_yun_project/wgg_website/
+            ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/www/wwwroot/ryw-yun-project/website/
           sshpass -p "${{ secrets.SSH_PASSWORD }}" ssh -o StrictHostKeyChecking=accept-new \
             ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} \
-            "chown -R www:www /www/wwwroot/ryw_yun_project/wgg_website"
+            "chown -R www:www /www/wwwroot/ryw-yun-project/website"
 
   deploy-ghpages:
     runs-on: ubuntu-latest

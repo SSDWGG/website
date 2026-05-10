@@ -4,9 +4,15 @@
 
 ## 预览地址
 
-- [aiwgg.cn](http://aiwgg.cn)
-- [ssdwgg.site](http://ssdwgg.site)
-- [ssdwgg.github.io/website](https://ssdwgg.github.io/website/)
+| 部署端点 | 预览 URL | 说明 |
+|---------|---------|------|
+| VPS (域名 A) | [https://website.ssdwgg.site](https://website.ssdwgg.site) | 宝塔面板 + Nginx + Let's Encrypt HTTPS |
+| VPS (域名 B) | [http://website.aiwgg.cn](http://website.aiwgg.cn) | 未备案，HTTPS 待升级 |
+| GitHub Pages | [https://ssdwgg.github.io/website/](https://ssdwgg.github.io/website/) | 自动部署 gh-pages 分支 |
+| Vercel | `https://wgg-website.vercel.app` | 连接 GitHub 仓库自动部署 |
+| Cloudflare Pages | `https://wgg-website.pages.dev` | 连接 GitHub 仓库自动部署 |
+
+> **HTTPS 说明**：VPS 域名 `website.ssdwgg.site` 已配置 Let's Encrypt 免费 HTTPS 证书，HTTP 自动 301 重定向到 HTTPS，证书到期前自动续期。
 
 **技术栈：**
 - **Vue 3：** 使用Vue 3，一款流行的JavaScript框架，提供了组件化开发、响应式数据绑定和路由管理等功能。
@@ -38,24 +44,24 @@ npm run serve
 npm run build
 ```
 
-### Deploys to cloud server
-Create `.env.deploy.local` with the SSH target config, then run:
-```
-npm run deploy
-```
+### CI/CD 自动部署
 
-Required keys:
-```
-DEPLOY_SSH_HOST=
-DEPLOY_SSH_USER=
-DEPLOY_SSH_PORT=
-DEPLOY_SSH_KEY=
-DEPLOY_REMOTE_DIR=
-```
+推送到 `main` 分支后，GitHub Actions 自动执行：
 
-Optional dry run:
+| Job | 目标 | 触发 |
+|-----|------|------|
+| `deploy-vps` | VPS `/www/wwwroot/ryw-yun-project/website/` | `git push` |
+| `deploy-ghpages` | GitHub Pages `gh-pages` 分支 | `git push` |
+| Vercel | Vercel 自动部署 | 连接 GitHub 仓库 |
+| Cloudflare Pages | Cloudflare 自动部署 | 连接 GitHub 仓库 |
+
+> Vercel / Cloudflare Pages 需在各自控制台连接本仓库（`SSDWGG/website`），构建命令 `npm run build`，输出目录 `dist`。
+
+### 手动部署到 VPS
+创建 `.env.deploy.local` 后运行：
 ```
-npm run deploy:dry-run
+npm run deploy         # 正式部署
+npm run deploy:dry-run # 模拟运行
 ```
 
 ### Lints and fixes files
