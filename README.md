@@ -2,6 +2,12 @@
 
 **描述：** ✨引人注目的个人主页Vue 3前端模板，专为那些喜欢暗黑风格的个人网站或在线简历而设计。它融合了Vue 3的现代前端开发技术和Tailwind CSS的强大样式框架，为用户提供了一个灵活且易于定制的平台，以展示个人信息、项目作品和技能。
 
+## 预览地址
+
+- [aiwgg.cn](http://aiwgg.cn)
+- [ssdwgg.site](http://ssdwgg.site)
+- [ssdwgg.github.io/website](https://ssdwgg.github.io/website/)
+
 **技术栈：**
 - **Vue 3：** 使用Vue 3，一款流行的JavaScript框架，提供了组件化开发、响应式数据绑定和路由管理等功能。
 - **Tailwind CSS：** 借助Tailwind CSS，一个高度可定制的CSS框架，实现了快速构建现代、响应式和美观的用户界面。
