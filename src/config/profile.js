@@ -1,0 +1,213 @@
+export const profileImages = {
+  avatar: 'https://panshi-on.oss-cn-hangzhou.aliyuncs.com/yunxiaoding-mini/other/common/IDFLLBMA-17115219024863b566a8d925c91990b8486e21b67e871.JPG',
+  secondary: 'https://panshi-on.oss-cn-hangzhou.aliyuncs.com/yunxiaoding-mini/other/common/CEODNAKO-1711513467263WechatIMG103.jpg',
+};
+
+export const profileContent = {
+  zh: {
+    displayName: 'WGG',
+    fullName: 'Ren YiWei',
+    roleLine: 'Ren YiWei · 前端 / 全栈开发者',
+    hero: {
+      eyebrow: 'Personal Profile',
+      titlePrefix: "Hello, I'm",
+      copy: '5 年+前端 / 全栈开发经验，聚焦 Web、多端应用与 AI + 工程化交付。',
+      actions: {
+        github: 'GitHub',
+        portfolio: '查看项目',
+        blog: '摄影分享',
+      },
+    },
+    sections: {
+      about: 'About Me',
+      focus: 'Focus',
+      skills: 'Skills',
+      timeline: '成长轨迹',
+    },
+    quickFacts: [
+      { icon: '📍', label: 'Location', value: 'Zhejiang · Hangzhou' },
+      { icon: '💻', label: 'Role', value: 'Front-end / Full-stack Developer' },
+      { icon: '🤖', label: 'Workflow', value: 'AI + Engineering' },
+    ],
+    tags: ['Vue 3', 'React', 'TypeScript', 'uni-app', 'Taro', 'Spring Boot', 'AI Workflow', 'FPV'],
+    timeline: [
+      { title: '持续构建、持续交付', time: 'Now' },
+      { title: 'AI 协同与工程化开发实践', time: '2024-Now' },
+      { title: '深耕 Web 与多端应用开发', time: '2022-Now' },
+      { title: '开始系统化编码学习', time: '2018' },
+    ],
+    aboutBullets: [
+      "Hi! I'm WGG",
+      '去思考，去做，去超越！',
+      '生活是一次精彩的旅程，不断尝试、挑战自我，持续成长',
+      '🔭 Coding since 2018',
+      '🌻 合作公司：杰克科技、目睹直播网络、趣看科技、美平米科技、悟川创新、迅盟科技、爱康优申教育集团、浙江毛源昌',
+      '⚡ My hobbies are Coding, FPV, Guitar and Fitness',
+    ],
+    aboutLongIntro: [
+      '5 年前端 / 全栈开发经验，主攻 Web 端与多端应用。',
+      '技术栈覆盖 Vue 2 / Vue 3、React、uni-app、小程序，同时具备一定 Java Spring Boot 后端能力，能够独立完成从前端到服务端的基础闭环。',
+      '我不仅停留在框架使用层，对 Vue / React 的核心机制（响应式原理、虚拟 DOM、组件调度、Hooks 等）有实际理解，在复杂状态管理、性能优化、组件抽象和工程化方面有长期实践。',
+      '当前主要采用 AI + 工程化的开发方式（Vibe Coding），通过熟练调用各类 AI 工具，将需求拆解、代码生成、调试验证流程高度自动化，实现更快的迭代速度和更低的沟通成本。',
+      '我更关注的不是“写代码”，而是用最合理的技术路径解决问题，并把复杂系统变简单、高效、系统化。',
+      '如果你需要的是一个既懂底层原理、又能快速落地、还能用 AI 放大产出的开发者，我很乐意参与到您的项目中，共同打造优秀的产品。',
+    ],
+    introCards: [
+      {
+        title: '经验与技术栈',
+        desc: '主攻 Web 端与多端应用，长期使用 Vue 2 / Vue 3、React、TypeScript、uni-app、小程序，也具备 Java Spring Boot 的基础后端能力，能够独立完成前后端基础闭环。',
+      },
+      {
+        title: '方法与价值',
+        desc: '相比单纯堆代码，我更关注问题拆解、状态管理、性能优化、组件抽象与工程化落地。当前主要采用 AI + 工程化协同开发方式，提高需求分析、编码、调试和验证效率。',
+      },
+      {
+        title: '合作与生活',
+        desc: '合作过杰克科技、目睹直播网络、趣看科技、美平米科技、悟川创新、迅盟科技、爱康优申教育集团、浙江毛源昌。生活里喜欢摄影、FPV、吉他、旅行与运动。',
+      },
+    ],
+    focusCards: [
+      { icon: '💻', title: 'Web / 多端开发', desc: '覆盖 Vue、React、uni-app、小程序等真实交付场景。' },
+      { icon: '🧠', title: '底层理解', desc: '关注响应式、虚拟 DOM、Hooks、状态管理与性能优化。' },
+      { icon: '🤖', title: 'AI + 工程化', desc: '把需求拆解、编码、调试与验证流程做得更快、更稳。' },
+      { icon: '📷', title: '影像与飞行', desc: '通过摄影、FPV 与旅行保持观察力和表达欲。' },
+    ],
+    skills: [
+      { name: 'Vue / Vue 3', desc: '组件化开发、状态管理、复杂业务页面与工程实践' },
+      { name: 'React', desc: '交互组件、Hooks 模式与中后台项目搭建' },
+      { name: 'TypeScript', desc: '类型约束、接口建模与长期可维护代码' },
+      { name: 'uni-app / Taro', desc: '多端与小程序项目落地经验' },
+      { name: 'Java / Spring Boot', desc: '基础接口开发与前后端联调闭环' },
+      { name: 'AI Workflow', desc: '需求拆解、代码生成、调试验证与交付提效' },
+    ],
+    quote: '“不是只写代码，而是用更合理的技术路径解决问题。”',
+    skillTabLabels: {
+      hobbies: '爱好',
+      programming: '编程',
+    },
+    skillTabs: {
+      programming: [
+        { id: 'taro', name: 'Taro', imageUrl: 'https://panshi-on.oss-cn-hangzhou.aliyuncs.com/yunxiaoding-mini/other/common/KADMOOEL-1711523726846taro.png', status: '熟练' },
+        { id: 'ts', name: 'TypeScript', imageUrl: 'https://panshi-on.oss-cn-hangzhou.aliyuncs.com/yunxiaoding-mini/other/common/DMLJOLIM-1711523726846typescript-def.png', status: '熟练' },
+        { id: 'vue', name: 'VueJS', imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-vue-282497.png?f=webp', status: '熟练' },
+        { id: 'react', name: 'ReactJS', imageUrl: 'https://panshi-on.oss-cn-hangzhou.aliyuncs.com/yunxiaoding-mini/other/common/GDJFPCAM-1711523779033React1.webp', status: '掌握' },
+        { id: 'mysql', name: 'MySQL', imageUrl: 'https://cdn-icons-png.flaticon.com/512/5968/5968313.png', status: '掌握' },
+        { id: 'sass', name: 'SASS', imageUrl: 'https://panshi-on.oss-cn-hangzhou.aliyuncs.com/yunxiaoding-mini/other/common/HCBEPLJH-1711523726846SASS.png', status: '熟练' },
+        { id: 'less', name: 'LESS', imageUrl: 'https://panshi-on.oss-cn-hangzhou.aliyuncs.com/yunxiaoding-mini/other/common/ELFEFPKI-1711523940816less1.webp', status: '熟练' },
+        { id: 'java', name: 'Java', imageUrl: 'https://panshi-on.oss-cn-hangzhou.aliyuncs.com/yunxiaoding-mini/other/common/BLMHGCAG-1711523726845java.png', status: '掌握' },
+      ],
+      hobbies: [
+        { id: 'photo', name: '摄影', imageUrl: 'https://panshi-on.oss-cn-hangzhou.aliyuncs.com/yunxiaoding-mini/other/common/HBIEIGFH-1711527220347ps.jpg', status: '约拍走起' },
+        { id: 'tech', name: '科技', imageUrl: 'https://panshi-on.oss-cn-hangzhou.aliyuncs.com/yunxiaoding-mini/other/common/GIHFPDIC-1711527332326car.png', status: '津津乐道' },
+        { id: 'travel', name: '旅行', imageUrl: 'https://panshi-on.oss-cn-hangzhou.aliyuncs.com/yunxiaoding-mini/other/common/KKFHECPA-1711527494949旅行-06.png', status: '说走就走' },
+        { id: 'music', name: '音乐', imageUrl: 'https://panshi-on.oss-cn-hangzhou.aliyuncs.com/yunxiaoding-mini/other/common/IABNKLFL-1711527220347音乐.png', status: '多多欣赏' },
+        { id: 'sport', name: '运动', imageUrl: 'https://panshi-on.oss-cn-hangzhou.aliyuncs.com/yunxiaoding-mini/other/common/PNCOCNAM-1711527445616Sport.png', status: '暂时搁置...' },
+        { id: 'fpv', name: 'FPV', imageUrl: 'https://panshi-on.oss-cn-hangzhou.aliyuncs.com/yunxiaoding-mini/other/common/MOPDFJGL-1711527445616飞机.png', status: '直接起飞' },
+        { id: 'coding', name: '编程', imageUrl: 'https://panshi-on.oss-cn-hangzhou.aliyuncs.com/yunxiaoding-mini/other/common/POEHEKLO-1711527220347027_编程.png', status: '高效优雅的追求' },
+      ],
+    },
+  },
+  en: {
+    displayName: 'WGG',
+    fullName: 'Ren YiWei',
+    roleLine: 'Ren YiWei · Front-end / Full-stack Developer',
+    hero: {
+      eyebrow: 'Personal Profile',
+      titlePrefix: "Hello, I'm",
+      copy: '5+ years of front-end and full-stack experience, focused on web, multi-platform apps, and AI-assisted engineering delivery.',
+      actions: {
+        github: 'GitHub',
+        portfolio: 'View Projects',
+        blog: 'Photography',
+      },
+    },
+    sections: {
+      about: 'About Me',
+      focus: 'Focus',
+      skills: 'Skills',
+      timeline: 'Timeline',
+    },
+    quickFacts: [
+      { icon: '📍', label: 'Location', value: 'Zhejiang · Hangzhou' },
+      { icon: '💻', label: 'Role', value: 'Front-end / Full-stack Developer' },
+      { icon: '🤖', label: 'Workflow', value: 'AI + Engineering' },
+    ],
+    tags: ['Vue 3', 'React', 'TypeScript', 'uni-app', 'Taro', 'Spring Boot', 'AI Workflow', 'FPV'],
+    timeline: [
+      { title: 'Building and shipping continuously', time: 'Now' },
+      { title: 'Practicing AI-assisted engineering workflows', time: '2024-Now' },
+      { title: 'Deepening web and multi-platform development', time: '2022-Now' },
+      { title: 'Started systematic coding practice', time: '2018' },
+    ],
+    aboutBullets: [
+      "Hi! I'm WGG",
+      'Think, build, and go further.',
+      'Life is a journey of trying, challenging yourself, and growing continuously.',
+      '🔭 Coding since 2018',
+      '🌻 Companies served: Jack Technology, Mudule Live, Qukan Technology, Meipingmi Technology, Wuchuan Innovation, Xunmeng Technology, Aikang Youshen Education Group, Zhejiang Maoyuanchang',
+      '⚡ My hobbies are coding, FPV, guitar, and fitness',
+    ],
+    aboutLongIntro: [
+      'I have 5 years of front-end and full-stack development experience, mainly focused on web and multi-platform applications.',
+      'My stack covers Vue 2 / Vue 3, React, uni-app, mini programs, and basic Java Spring Boot back-end development, so I can complete a practical front-end to server-side loop independently.',
+      'I do not stop at framework usage. I have practical understanding of Vue and React internals, including reactivity, virtual DOM, component scheduling, and Hooks, with long-term practice in complex state management, performance optimization, component abstraction, and engineering workflows.',
+      'My current workflow is AI plus engineering: I use AI tools to automate requirement breakdown, code generation, debugging, and verification, improving iteration speed and lowering communication cost while keeping quality in view.',
+      'I care less about merely writing code and more about choosing the right technical path, simplifying complex systems, and making delivery efficient and systematic.',
+      'If you need a developer who understands core principles, can ship quickly, and can amplify output with AI, I am ready to help build strong products.',
+    ],
+    introCards: [
+      {
+        title: 'Experience And Stack',
+        desc: 'Focused on web and multi-platform applications, with long-term use of Vue 2 / Vue 3, React, TypeScript, uni-app, mini programs, and basic Java Spring Boot back-end development.',
+      },
+      {
+        title: 'Method And Value',
+        desc: 'I focus on problem breakdown, state management, performance optimization, component abstraction, and engineering delivery. My current workflow uses AI plus engineering to improve analysis, coding, debugging, and verification.',
+      },
+      {
+        title: 'Work And Life',
+        desc: 'I have worked with Jack Technology, Mudule Live, Qukan Technology, Meipingmi Technology, Wuchuan Innovation, Xunmeng Technology, Aikang Youshen Education Group, and Zhejiang Maoyuanchang. Outside work, I enjoy photography, FPV, guitar, travel, and fitness.',
+      },
+    ],
+    focusCards: [
+      { icon: '💻', title: 'Web / Multi-platform', desc: 'Real delivery experience across Vue, React, uni-app, and mini programs.' },
+      { icon: '🧠', title: 'Core Understanding', desc: 'Attention to reactivity, virtual DOM, Hooks, state management, and performance.' },
+      { icon: '🤖', title: 'AI + Engineering', desc: 'Making requirement breakdown, coding, debugging, and verification faster and steadier.' },
+      { icon: '📷', title: 'Visuals And Flight', desc: 'Using photography, FPV, and travel to keep observation and expression sharp.' },
+    ],
+    skills: [
+      { name: 'Vue / Vue 3', desc: 'Component development, state management, complex business pages, and engineering practice' },
+      { name: 'React', desc: 'Interactive components, Hooks patterns, and admin project setup' },
+      { name: 'TypeScript', desc: 'Type constraints, API modeling, and maintainable code' },
+      { name: 'uni-app / Taro', desc: 'Multi-platform and mini program delivery experience' },
+      { name: 'Java / Spring Boot', desc: 'Basic API development and front-end to back-end integration' },
+      { name: 'AI Workflow', desc: 'Requirement breakdown, code generation, debugging, verification, and delivery efficiency' },
+    ],
+    quote: '"Do not just write code. Use a better technical path to solve the problem."',
+    skillTabLabels: {
+      hobbies: 'Hobbies',
+      programming: 'Coding',
+    },
+    skillTabs: {
+      programming: [
+        { id: 'taro', name: 'Taro', imageUrl: 'https://panshi-on.oss-cn-hangzhou.aliyuncs.com/yunxiaoding-mini/other/common/KADMOOEL-1711523726846taro.png', status: 'Advanced' },
+        { id: 'ts', name: 'TypeScript', imageUrl: 'https://panshi-on.oss-cn-hangzhou.aliyuncs.com/yunxiaoding-mini/other/common/DMLJOLIM-1711523726846typescript-def.png', status: 'Advanced' },
+        { id: 'vue', name: 'VueJS', imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-vue-282497.png?f=webp', status: 'Advanced' },
+        { id: 'react', name: 'ReactJS', imageUrl: 'https://panshi-on.oss-cn-hangzhou.aliyuncs.com/yunxiaoding-mini/other/common/GDJFPCAM-1711523779033React1.webp', status: 'Proficient' },
+        { id: 'mysql', name: 'MySQL', imageUrl: 'https://cdn-icons-png.flaticon.com/512/5968/5968313.png', status: 'Proficient' },
+        { id: 'sass', name: 'SASS', imageUrl: 'https://panshi-on.oss-cn-hangzhou.aliyuncs.com/yunxiaoding-mini/other/common/HCBEPLJH-1711523726846SASS.png', status: 'Advanced' },
+        { id: 'less', name: 'LESS', imageUrl: 'https://panshi-on.oss-cn-hangzhou.aliyuncs.com/yunxiaoding-mini/other/common/ELFEFPKI-1711523940816less1.webp', status: 'Advanced' },
+        { id: 'java', name: 'Java', imageUrl: 'https://panshi-on.oss-cn-hangzhou.aliyuncs.com/yunxiaoding-mini/other/common/BLMHGCAG-1711523726845java.png', status: 'Proficient' },
+      ],
+      hobbies: [
+        { id: 'photo', name: 'Photography', imageUrl: 'https://panshi-on.oss-cn-hangzhou.aliyuncs.com/yunxiaoding-mini/other/common/HBIEIGFH-1711527220347ps.jpg', status: 'Portraits welcome' },
+        { id: 'tech', name: 'Technology', imageUrl: 'https://panshi-on.oss-cn-hangzhou.aliyuncs.com/yunxiaoding-mini/other/common/GIHFPDIC-1711527332326car.png', status: 'Always curious' },
+        { id: 'travel', name: 'Travel', imageUrl: 'https://panshi-on.oss-cn-hangzhou.aliyuncs.com/yunxiaoding-mini/other/common/KKFHECPA-1711527494949旅行-06.png', status: 'Ready to go' },
+        { id: 'music', name: 'Music', imageUrl: 'https://panshi-on.oss-cn-hangzhou.aliyuncs.com/yunxiaoding-mini/other/common/IABNKLFL-1711527220347音乐.png', status: 'Keep listening' },
+        { id: 'sport', name: 'Fitness', imageUrl: 'https://panshi-on.oss-cn-hangzhou.aliyuncs.com/yunxiaoding-mini/other/common/PNCOCNAM-1711527445616Sport.png', status: 'On pause' },
+        { id: 'fpv', name: 'FPV', imageUrl: 'https://panshi-on.oss-cn-hangzhou.aliyuncs.com/yunxiaoding-mini/other/common/MOPDFJGL-1711527445616飞机.png', status: 'Take off' },
+        { id: 'coding', name: 'Coding', imageUrl: 'https://panshi-on.oss-cn-hangzhou.aliyuncs.com/yunxiaoding-mini/other/common/POEHEKLO-1711527220347027_编程.png', status: 'Efficient and elegant' },
+      ],
+    },
+  },
+};
